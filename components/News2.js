@@ -1,13 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-function news1() {
+function news2() {
   return (
     <div>
      <div>
-     <div >
-       <h1 className="text-4xl font-bold text-center text-gray-800 mb-8 font-body">
-        Product Category
-       </h1>
+     <div>
+     
      </div>
         <div className="mx-auto mt-16 xl:max-w-6xl">
           {/* <ImageCard
@@ -19,16 +17,7 @@ function news1() {
           <div className="flex xl:mt-10 xl:-mx-6">
             <div className="w-full xl:px-6">
               <ImageCard
-                src="/Asset3.jpg"
-                title="Jeans"
-               
-                width={420}
-                height={420}
-              />
-            </div>
-            <div className="w-full xl:px-6">
-              <ImageCard
-                src="/Asset4.jpg"
+                src="/Asset6.jpg"
                 title="Denim"
                 width={420}
                 height={420}
@@ -36,8 +25,16 @@ function news1() {
             </div>
             <div className="w-full xl:px-6">
               <ImageCard
-                 src="/Asset5.jpg"
-                title="Mens clothing"
+                src="/Asset7.jpg"
+                title="Kids Clothing"
+                width={420}
+                height={420}
+              />
+            </div>
+            <div className="w-full xl:px-6">
+              <ImageCard
+              src="/Asset6.jpg"
+                title="Denim"
                 width={420}
                 height={420}
               />
@@ -50,7 +47,7 @@ function news1() {
   )
 }
 
-export default news1
+export default news2
 const Img = ({ src, aspectRatio = 16 / 9, className = "" }) => {
   return (
     <div
@@ -66,15 +63,13 @@ const Img = ({ src, aspectRatio = 16 / 9, className = "" }) => {
 function ImageCard({ src, title, date, width, height }) {
   return (
     <div className="relative">
-    
       <Image
         className="object-cover w-full h-full xl:rounded-lg"
         src={src}
         width={width}
         height={height}
-        
       />
-       <div className="absolute bottom-0 w-full py-2 pl-3 text-white md:pl-4 md:py-4 bg-gradient-to-t from-black.85 xl:bg-none xl:static xl:text-gray-900 xl:px-0">
+      <div className="absolute bottom-0 w-full py-2 pl-3 text-white md:pl-4 md:py-4 bg-gradient-to-t from-black.85 xl:bg-none xl:static xl:text-gray-900 xl:px-0">
         <p className="text-sm font-semibold sm:text-base xl:text-lg xl:font-medium">
           {title}
         </p>

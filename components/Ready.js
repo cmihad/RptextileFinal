@@ -2,29 +2,21 @@ import React from 'react'
 
 function Ready() {
   return (
-    <div>
-   
-<div class="bg-gray-50">
-  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-    <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+    <div className="py-20" style={{background: 'linear-gradient(90deg, #667eea 0%, #764ba2 100%)'}}>
+    <div className="container mx-auto px-6 ">
+      <h2 className="text-4xl font-bold mb-2 text-white">
       Ready to dive in?
-      <br/>
-      <span class="text-primary">Contact us to get a quote.</span>
-    </h2>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
-      <div class="inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-logo-color hover:bg-logo-color focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-          Contact us
-
-        </a>
-      </div>
-    
+      </h2>
+      <h3 className="text-2xl mb-8 text-gray-200">
+      Contact us to get a quote.
+      </h3>
+      <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+        Pre Order
+      </button>
     </div>
   </div>
-</div>
-
-    </div>
   )
 }
 
 export default Ready;
+

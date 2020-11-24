@@ -1,4 +1,4 @@
-export default function FeatureSection() {
+export default function Services() {
   return (
     <div>
  

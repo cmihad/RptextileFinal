@@ -3,7 +3,7 @@ import { FaFacebookF ,FaLinkedinIn } from 'react-icons/fa'
 function TopBar() {
   return (
     <div>
-      <div className="w-full h-8 flex bg-pr  ">
+      <div className="hidden  sm:w-full sm:h-8 sm:flex bg-pr  ">
       <div className="container mx-auto flex justify-between px-6 " >
 
       <div className="flex" >

@@ -9,7 +9,7 @@ function news1() {
         Product Category
        </h1>
      </div>
-        <div className="mx-auto mt-16 xl:max-w-6xl">
+        <div className="mx-auto mt-8 xl:max-w-6xl">
           {/* <ImageCard
             src="/new-york.jpeg"
             title="New York City"

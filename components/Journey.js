@@ -4,8 +4,7 @@ function Journey() {
   return (
     <div>
         <div>
-          <h1 className="text-gray-800
-           text-center text-4xl my-10 tracking-wide font-bold  font-display">
+          <h1 className="text-2xl my-6 sm:text-4xl font-bold text-center text-gray-800 mb-8 font-body">
             Our Journey
           </h1>
         </div>

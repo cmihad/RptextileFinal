@@ -8,13 +8,14 @@ function Navbar() {
     <div className="h-20 w-full bg-transparent flex bg-white ">
       <div className="container mx-auto px-6 py-2 flex justify-between items-center">
 
-      <div  className="logo mb-auto mt-auto">
+      <div  className="logo mb-auto mt-auto cursor-pointer">
       <Link href="/">
 
       <Image
         src="/Logo.png"
         width={50}
         height={55}
+        className="cursor-pointer"
       >
 
       </Image>
@@ -26,13 +27,13 @@ function Navbar() {
           <li className="mt-auto mb-auto px-3">
           <Link href="/">
 
-           <a href="" className="text-xl text-black font-body capitalize font-bold">Home</a>
+           <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold">Home</a>
           </Link>
           </li>
           <li className="mt-auto mb-auto px-3">
             <Link href="/service">
 
-            <a href="" className="text-xl text-black font-body capitalize font-bold">
+            <a href="" className=" text-base  sm:text-xl text-black font-body capitalize font-bold">
 
             Services
             </a>
@@ -41,7 +42,7 @@ function Navbar() {
           <li className="mt-auto mb-auto px-3">
           <Link  href="/about">
 
-            <a href="" className="text-xl text-black font-body capitalize font-bold">
+            <a href="" className="text-base  sm:text-xl text-black font-body capitalize font-bold">
 
             About Us
             </a>
@@ -50,7 +51,7 @@ function Navbar() {
           <li className="mt-auto mb-auto pl-3">
           <Link href="/contact">
 
-            <a href="" className="text-xl text-black font-body capitalize font-bold ">
+            <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold ">
 
               
               Contact Us

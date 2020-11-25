@@ -19,7 +19,7 @@ function Journey() {
         Company keep growing at a very high pace with New clients, and new suppliers adding to the list regularly
 
       </p>
-      <p className="text-text text-xl tracking-tight">Lorem   
+      <p className="text-text text-xl tracking-tight">   
         Company Expanded to to multiple Sector of Clothing Industry, Moved into a very big office and currently employees more than 35 people .
       </p>
         

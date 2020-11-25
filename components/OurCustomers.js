@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 const OurCustomers = () => {
   return (
-    <div className="container mx-auto my-24"  >
+    <div className="container mx-auto my-0 sm:my-24"  >
     <h1 className="text-gray-800
-           text-center text-4xl my-10 tracking-wide font-bold  font-display">
+           text-center text-2xl my-4 sm:text-4xl sm:my-10 tracking-wide font-bold  font-display">
             Companies That We Work With
           </h1>
          
-   <div className="flex   justify-evenly py-16 ">
+   <div className="  flex flex-wrap px-4 pb-8 pt-4 md: justify-evenly md:py-16 ">
       <div>
 
         <Image className="mx-10"

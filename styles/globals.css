@@ -197,6 +197,21 @@ a {
 .hi-screen{
   height: 85vh;
 }
+.office-svg svg{
+  width: 100%;
+  height: 100%;
+  
+}
+@media only screen and (max-width: 600px) {
+  .hi-screen{
+    max-height: 600px;
+  }
+  .office-svg svg{
+    width: 340px;
+    height: 250px;
+    overflow-x: hidden;
+  }
+}
 .py-86{
   padding-top:16rem ;
 }

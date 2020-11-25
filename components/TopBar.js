@@ -7,9 +7,9 @@ function TopBar() {
       <div className="container mx-auto flex justify-between px-6 " >
 
       <div className="flex" >
-      <FaFacebookF className=" mb-auto mt-auto text-white px-1" />
+      <FaFacebookF className=" mb-auto mt-auto text-white px-1 cursor-pointer" />
 
-      <FaLinkedinIn  className=" mb-auto mt-auto text-white "/>
+      <FaLinkedinIn  className=" mb-auto mt-auto text-white cursor-pointer"/>
 
       </div>
 

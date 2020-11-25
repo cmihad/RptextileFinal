@@ -8,7 +8,7 @@ function Footer() {
     <footer className="bg-gray-100">
       <div className="container mx-auto px-6 pt-10 pb-6">
         <div className="flex flex-wrap">
-          <div className="w-full md:w-1/4 text-center md:text-left ">
+          <div className="w-1/2 md:w-1/4 text-center md:text-left ">
             <h5 className="uppercase mb-6 font-bold">Links</h5>
             <ul className="mb-4">
               <li className="mt-2">
@@ -22,7 +22,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 text-center md:text-left ">
+          <div className="w-1/2 md:w-1/4 text-center md:text-left ">
             <h5 className="uppercase mb-6 font-bold">Legal</h5>
             <ul className="mb-4">
               <li className="mt-2">
@@ -33,7 +33,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 text-center md:text-left ">
+          <div className="w-1/2 md:w-1/4 text-center md:text-left ">
             <h5 className="uppercase mb-6 font-bold">Social</h5>
             <ul className="mb-4">
               <li className="mt-2">
@@ -47,7 +47,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 text-center md:text-left ">
+          <div className="w-1/2 md:w-1/4 text-center md:text-left ">
             <h5 className="uppercase mb-6 font-bold">Company</h5>
             <ul className="mb-4">
               <li className="mt-2">

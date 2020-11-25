@@ -5,7 +5,7 @@ function news1() {
     <div>
      <div>
      <div >
-       <h1 className="text-4xl font-bold text-center text-gray-800 mb-8 font-body">
+       <h1 className="text-2xl sm:text-4xl font-bold text-center text-gray-800 mb-8 font-body">
         Product Category
        </h1>
      </div>

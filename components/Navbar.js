@@ -6,9 +6,11 @@ function Navbar() {
     <div>
 
     <div className="h-20 w-full bg-transparent flex bg-white ">
-      <div className="flex container justify-between mx-auto">
+      <div className="container mx-auto px-6 py-2 flex justify-between items-center">
 
       <div  className="logo mb-auto mt-auto">
+      <Link href="/">
+
       <Image
         src="/Logo.png"
         width={50}
@@ -16,6 +18,7 @@ function Navbar() {
       >
 
       </Image>
+      </Link>
       </div>
       <div>
     </div>

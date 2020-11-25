@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaMoneyBillAlt } from 'react-icons/fa'
+
 
 function Grid3() {
   return (
@@ -12,8 +14,7 @@ function Grid3() {
           <div className="w-full md:w-1/3 px-2 mb-4">
             <div className="bg-white rounded shadow py-2">
               <p className="text-gray-800 text-base px-6 mb-5">
-                Monitoring and tracking my health vitals anywhere I go and on
-                any platform I use has never been easier.
+                < FaMoneyBillAlt />
               </p>
               <p className="text-gray-500 text-xs md:text-sm px-6">
                 John Doe

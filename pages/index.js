@@ -16,6 +16,9 @@ import Footer from '../components/Footer'
 import Grid3 from '../components/Grid3'
 import link from 'next/link'
 import HomeBanner from '../components/HomeBanner'
+import OurCustomers from '../components/OurCustomers'
+import ContactUs from '../components/ContactUs'
+import OurOffice from '../components/OurOffice'
 export default function Home() {
   return (
     <div className="mx-auto">
@@ -23,7 +26,10 @@ export default function Home() {
       <TopBar></TopBar>
       <Navbar></Navbar>
       <HomeBanner></HomeBanner>
-      <Grid3></Grid3>
+      <div className="my-8">
+
+      </div>
+      {/* <Grid3></Grid3> */}
       <News1></News1>
       <News2></News2>
     <Journey></Journey>
@@ -34,8 +40,12 @@ export default function Home() {
       </CategoryHome>
  {/* <HeaderDummy></HeaderDummy> */}
       {/* <Services></Services> */}
-    <Ready></Ready>
+    {/* <Ready></Ready> */}
+    <OurCustomers></OurCustomers>
+    <OurOffice></OurOffice>
+    <ContactUs></ContactUs>
     <Footer></Footer>
+
     </div>
    
   )

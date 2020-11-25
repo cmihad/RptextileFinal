@@ -1,11 +1,9 @@
 import React from 'react'
 
-function AboutUsBanner() {
+const Whoweare = () => {
   return (
     <div>
-      
-      <div className="py-40 about-us-banner" >
-        <div className="container mx-auto ">
+           <div className="container mx-auto ">
           <h2 className="text-6xl font-bold mb-2 text-white text-center font-display ">
             About Us
           </h2>
@@ -17,9 +15,9 @@ function AboutUsBanner() {
             Pre Order
           </button> */}
         </div>
-      </div>
+      
     </div>
   )
 }
 
-export default AboutUsBanner
+export default Whoweare

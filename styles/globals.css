@@ -41,7 +41,7 @@ a {
 
 
 .journey p:nth-child(2):before {
-  content: "2014";
+  content: "2011";
   right: 100%; 
   margin-right: -20px;
   position: absolute;
@@ -89,7 +89,7 @@ a {
 
 
 .journey p:nth-child(1):before {
-  content:  "2016";
+  content:  "2010";
   left: 100%; 
   margin-left: -20px;
   position: absolute;
@@ -108,7 +108,7 @@ a {
 }
 
 .journey p:nth-child(3):before {
-  content:  "2016";
+  content:  "2014";
   left: 100%; 
   margin-left: -20px;
   position: absolute;
@@ -124,7 +124,7 @@ a {
   padding-top: 15px;
 }
 .journey p:nth-child(5):before {
-  content:  "2016";
+  content:  "2020";
   left: 100%; 
   margin-left: -20px;
   position: absolute;
@@ -199,4 +199,49 @@ a {
 }
 .py-86{
   padding-top:16rem ;
+}
+.about-us-banner{
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+   url(../public/aboutus.jpg)    
+  no-repeat center center;
+
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+}
+.contact-us-banner{
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+   url(../public/contactusBanner1.jpg)    
+  no-repeat center center;
+
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+}
+.services-banner{
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+   url(../public/servicesbanner.jpg)    
+  no-repeat top center;
+
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
 }

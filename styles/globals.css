@@ -185,7 +185,7 @@ a {
   border-bottom-left-radius:0;
 }
 .imm{
-  background: url(../public/Asset\ 14.jpg)    
+  background: url(../public/video.mp4)    
   no-repeat center center;
 
   height: 100%;
@@ -259,4 +259,24 @@ a {
   display: flex;
   align-items: center;
 
+}
+.header{
+  height: auto;
+}
+.header nav{
+  background: rgba(0, 0, 0, 0.2);
+}
+.video-cta{
+  height: auto;
+}
+@media(min-width : 1024px){
+
+  .header{
+    height: 762px;
+  }
+  .video-cta{
+    height: 582px;
+  }
+
+  
 }

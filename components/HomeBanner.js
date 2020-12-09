@@ -9,7 +9,7 @@ function HomeBanner() {
             RP TEXTILES AND FASHION
           </h2>
           <h3 className="text-2xl mb-8 text-gray-200 font-body text-center">
-            One Stop Solution to your Sourcing Needs
+            Your trusted partner in Apparel sourcing
           </h3>
           {/* <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
             Pre Order

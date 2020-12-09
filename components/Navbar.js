@@ -49,12 +49,22 @@ function Navbar() {
           </Link>
           </li>
           <li className="mt-auto mb-auto pl-3">
+          <Link href="/team">
+
+            <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold ">
+
+              
+              Our Team
+            </a>
+          </Link>
+          </li>
+          <li className="mt-auto mb-auto pl-3">
           <Link href="/contact">
 
             <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold ">
 
               
-              Contact Us
+              Contact 
             </a>
           </Link>
           </li>

@@ -19,13 +19,16 @@ import HomeBanner from '../components/HomeBanner'
 import OurCustomers from '../components/OurCustomers'
 import ContactUs from '../components/ContactUs'
 import OurOffice from '../components/OurOffice'
+import OurServices from '../components/OurServices'
+import VideoHeader from '../components/VideoHeader'
 export default function Home() {
   return (
     <div className="mx-auto">
       {/* <HeaderMain></HeaderMain> */}
       <TopBar></TopBar>
-      <Navbar></Navbar>
-      <HomeBanner></HomeBanner>
+      {/* <Navbar></Navbar> */}
+     <VideoHeader></VideoHeader>
+      {/* <HomeBanner></HomeBanner> */}
       <div className="my-8">
 
       </div>
@@ -41,6 +44,7 @@ export default function Home() {
  {/* <HeaderDummy></HeaderDummy> */}
       {/* <Services></Services> */}
     {/* <Ready></Ready> */}
+    <OurServices></OurServices>
     <OurCustomers></OurCustomers>
     <OurOffice></OurOffice>
     <ContactUs></ContactUs>

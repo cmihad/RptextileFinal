@@ -12,3 +12,50 @@
   background-size: cover;
   background-blend-mode: multiply;
 }
+.img-custtomer-bg{
+  background: url(../public/Cloth@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.customer-grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-gap: 50px;
+  place-items: center;
+}
+.flex-5col{
+  background-color: white;
+}
+.nav-block {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  min-height: 550px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.nav-block >:nth-child(2){
+  padding: 267px 0px;
+  background-color:  #00D9C0;
+  
+}
+.nav-block >:nth-child(4){
+  padding: 268px 0px;
+  background-color:  #00D9C0;
+
+  
+}
+.nav-block__menu-item {
+  border-width: 0;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}

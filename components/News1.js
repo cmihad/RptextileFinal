@@ -18,7 +18,7 @@ function news1() {
           
           <div className="flex xl:mt-10 xl:-mx-6">
             <div className="w-full xl:px-6">
-            <img src="/Asset3.jpg"/>
+     
               <ImageCard
                 src="/Asset3.jpg"
                 title="Jeans"

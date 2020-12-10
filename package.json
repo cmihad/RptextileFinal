@@ -16,10 +16,3 @@
     "tailwindcss": "^1.9.6"
   }
 }
-I just did this today, it's definitely possible. You need to adjust your DNS records. Namely your a record, cname record and mx record.
-
-I was migrating my web hosting from siteground to netlify while keeping my email hosting with siteground. My domain registrar was godaddy. My name servers were pointed at site ground (siteground managed). I had to switch the name servers to default (godaddy managed). I then had to point my a record and cname record at netlify (Google this and you'll find the netlify support page). Next I had to point the mx record at siteground using addresses I found on a siteground support page. Keep in mind this usually takes an hour or two to take effect.
-
-Note: I also had to change the server settings on my email client, I had siteground support look into it for me.
-
-Good luck!

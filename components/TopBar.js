@@ -3,7 +3,7 @@ import { FaFacebookF ,FaLinkedinIn ,FaTelegramPlane ,FaWhatsapp } from 'react-ic
 function TopBar() {
   return (
     <div>
-      <div className="hidden  sm:w-full sm:h-10 sm:flex bg-pr  ">
+      <div className="hidden  sm:w-full sm:h-10 sm:flex bg-upda  ">
       <div className="container mx-auto flex justify-between px-6 " >
 
       <div className="flex " >

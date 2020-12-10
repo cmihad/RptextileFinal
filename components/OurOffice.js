@@ -6,15 +6,15 @@ import Link from 'next/link'
 import { FaMapMarkerAlt} from 'react-icons/fa'
 const OurOffice = () => {
   return (
-    <div className="py-0 sm:py-1">
+    <div className="py-4  sm:py-1">
           
    
 
-          <div className="my-0 place-items-center sm:my-8 grid grid-cols-1 md:grid-cols-2 container mx-auto ">
+          <div className="my-0 place-items-center sm:my-16 grid grid-cols-1 md:grid-cols-2 container mx-auto ">
           
           
-          <div className=" pt-10 sm:pt-32 ml-8">
-          <h1>
+          <div className="pt-0 pb-8 sm:pt-10">
+          <h1 className="text-2xl tracking-tight font-display text-gray-700 font-bold">
             OUR Office
           </h1>
     
@@ -42,9 +42,9 @@ const OurOffice = () => {
     </div>
     <div className="office-svg"  >
     <img 
-      src="/AssetMap.png"
-      width={650}
-      height={500}  
+      src="/AssetMap2x.png"
+      width={500}
+      height={230}  
     />
     
       

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const VideoHeader = () => {
   return (
     <header className="header relative lg:overflow-hidden z-10">
@@ -17,32 +17,48 @@ const VideoHeader = () => {
           </button>
         </div>
         <ul data-menu className="md:flex hidden flex-wrap items-center justify-start text-white">
+          <Link href="/">
+
           <li className="md:px-6 py-2">
             <a href="#" className="text-brand">Home</a>
           </li>
+          </Link>
           {/* <li class="md:px-6 py-2">
       <a href="#">Stream/Buy</a>
     </li> */}
+
+            <Link href="/service">
+
           <li className="md:px-6 py-2">
             <a href="#">Services</a>
           </li>
+            </Link>
+            <Link href="/about">
+
           <li className="md:px-6 py-2">
             <a href="#">About Us</a>
           </li>
+            </Link>
+            <Link href="/team">
+
           <li className="md:px-6 py-2">
             <a href="#">Our Team</a>
           </li>
+            </Link>
+            <Link href="/contact">
+
           <li className="md:px-6 py-2">
             <a href="#">Contact</a>
           </li>
+            </Link>
         </ul>
       </div>
     </nav>
     <div className="container mx-auto lg:mt-56 lg:px-16 px-4 py-4">
-      <div className="md:pl-8 md:border-l border-white">
+      <div className="md:pl-8 md:border-l-4 border-white">
         <h1 className="text-primary md:text-8xl text-2xl font-bold font-sans m-0 md:leading-none">RP Textiles</h1>
-        <p className="text-white text-2xl md:max-w-lg w-full md:my-4">
-          One Stop Solution For Your Sourcing Needs
+        <p className="text-white text-4xl md:max-w-lg w-full md:my-4">
+        Your Trusted Apparel Sourcing Partner
         </p>
       
       </div>

@@ -2,15 +2,15 @@ import React from 'react'
 import Image from 'next/image'
 const OurCustomers = () => {
   return (
-    <div className="img-custtomer-bg py-2">
+    <div className="img-custtomer-bg py-1">
 
-    <div className="container mx-auto my-0 sm:my-24 "  >
+    <div className="container mx-auto my-0 sm:my-0 "  >
     <h1 className="text-white
            text-center text-2xl my-4 sm:text-4xl sm:my-10 tracking-wide font-bold  font-display">
             Companies That We Work With
           </h1>
          
-   <div className=" customer-grid px-4 pb-8 pt-4 md: justify-evenly md:py-16 ">
+   <div className=" customer-grid px-4 pb-8 pt-4 md: justify-evenly md:py-4 ">
       <div>
 
         <Image className="mx-10"
@@ -116,7 +116,7 @@ const OurCustomers = () => {
             </Image>
             </div>      
             
-           <div className="ml-20">
+           <div >
 
               <Image className="mx-10"
               src="/Group26.png"
@@ -126,12 +126,18 @@ const OurCustomers = () => {
 
               </Image>
               </div>      
-              <div className="ml-20">
+              <div >
 
-           
+              <Image className="mx-10"
+              src="/Asset22@300x.png"
+              width= {308}
+              height={251}
+              >
+
+              </Image>
             </div>      
 
-      <div className="ml-20">
+      <div >
 
         <Image className="mx-10"
         src="/Group32.png"
@@ -141,7 +147,7 @@ const OurCustomers = () => {
 
         </Image>
               </div>      
-        <div className="ml-20">
+        <div >
 
       <Image className="mx-10"
       src="/Group30.png"
@@ -151,7 +157,7 @@ const OurCustomers = () => {
 
       </Image>
       </div>      
-    <div className="ml-20">
+    <div >
 
       <Image className="mx-10"
       src="/Group28.png"
@@ -161,9 +167,127 @@ const OurCustomers = () => {
 
       </Image>
       </div>      
-   <div className="ml-20">
+        <div >
+
+        <Image className="mx-10"
+      src="/Asset16@300x.png"
+      width= {840}
+      height={155}
+      >
+
+      </Image>
 
       </div>      
+
+
+      <div >
+
+<Image className="mx-10"
+src="/Asset17@300x.png"
+width= {554}
+height={383}
+>
+
+</Image>
+
+</div>      
+
+
+<div >
+
+<Image className="mx-10"
+src="/Asset18@300x.png"
+width= {281}
+height={290}
+>
+
+</Image>
+
+</div>      
+
+
+<div >
+
+<Image className="mx-10"
+src="/Asset19@300x.png"
+width= {504}
+height={112}
+>
+
+</Image>
+
+</div>      
+
+
+<div >
+
+<Image className="mx-10"
+src="/Asset20@300x.png"
+width= {623}
+height={91}
+>
+
+</Image>
+
+</div>      
+
+
+<div >
+
+<Image className="mx-10"
+src="/Asset21@300x.png"
+width= {607}
+height={180}
+>
+
+</Image>
+
+</div>      
+
+
+
+<div >
+
+
+
+</div>      
+
+<div >
+
+<Image className="mx-10"
+src="/Asset23@300x.png"
+width= {870}
+height={200}
+>
+
+</Image>
+
+</div>      
+
+<div >
+
+<Image className="mx-10"
+src="/Asset24@300x.png"
+width= {833}
+height={135}
+>
+
+</Image>
+
+</div>      
+
+<div>
+
+
+
+</div>      
+
+
+<div >
+
+
+
+</div>      
 
     
   </div>

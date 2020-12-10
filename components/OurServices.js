@@ -3,7 +3,7 @@ import Image from 'next/image'
 const OurServices = () => {
   return (
     <div  className="bg-upda ">
-      <div className="py-20">
+      <div className="py-8 sm:py-20">
       <h1 className="text-white
            text-center text-2xl  sm:text-4xl tracking-wide font-bold  font-display">
             Our Services

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 const Product = () => {
   return (
-    <div className=" bg-gray-900 " >
+    <div className=" bg-gray-900 " id="product" >
     <h1 className="text-4xl text-white  font-bold text-center py-8">
       Our Product
     </h1>

@@ -40,12 +40,12 @@ export default function Home() {
       <News2></News2> */}
       <Ceo></Ceo>
     <Journey></Journey>
-      <Product></Product>
       {/* <UcardCategory></UcardCategory> */}
 
       <CategoryHome>
 
       </CategoryHome>
+      <Product></Product>
  {/* <HeaderDummy></HeaderDummy> */}
       {/* <Services></Services> */}
     {/* <Ready></Ready> */}

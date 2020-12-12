@@ -21,6 +21,7 @@ import ContactUs from '../components/ContactUs'
 import OurOffice from '../components/OurOffice'
 import OurServices from '../components/OurServices'
 import VideoHeader from '../components/VideoHeader'
+import Ceo from '../components/Ceo'
 export default function Home() {
   return (
     <div className="mx-auto">
@@ -35,6 +36,7 @@ export default function Home() {
       {/* <Grid3></Grid3> */}
       <News1></News1>
       <News2></News2>
+      <Ceo></Ceo>
     <Journey></Journey>
       {/* <UcardCategory></UcardCategory> */}
 

@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { FaMapMarkerAlt} from 'react-icons/fa'
 const OurOffice = () => {
   return (
-    <div className="py-4  sm:py-1">
+    <div className="py-4  sm:py-1 "id="office">
           
    
 

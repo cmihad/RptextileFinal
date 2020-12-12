@@ -1,4 +1,5 @@
 import React from 'react'
+import Ceo from '../components/Ceo'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -13,6 +14,7 @@ function service() {
     </TopBar>
     <Navbar></Navbar>
     <ServicesBanner></ServicesBanner>
+    <Ceo></Ceo>
       <Services></Services>
       <ContactUs></ContactUs>
       <Footer></Footer>

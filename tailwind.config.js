@@ -35,11 +35,12 @@ module.exports = {
              'nw':'#777C7C'
            },
       colors:{
-        
+            'backgrind':'#e2e8f0',
             'pr':'#2F7268',
          'logo-color':'#56a299',
          'new':'#00D9C0',
          'upda':'#44BBA4',
+         'bg-f5':'#F5F5F5'
          
          },
          fontFamily:{

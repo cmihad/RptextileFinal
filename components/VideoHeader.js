@@ -27,12 +27,6 @@ const VideoHeader = () => {
       <a href="#">Stream/Buy</a>
     </li> */}
 
-            <Link href="/service">
-
-          <li className="md:px-6 py-2">
-            <a href="#">Services</a>
-          </li>
-            </Link>
             <Link href="/about">
 
           <li className="md:px-6 py-2">
@@ -41,16 +35,31 @@ const VideoHeader = () => {
             </Link>
 
 
-            {/* <Link href="/team">
+            <Link href="#service">
 
-              <li className="md:px-6 py-2">
-                <a href="#">Our Team</a>
-              </li>
-            </Link> */}
+          <li className="md:px-6 py-2">
+            <a href="#">Services</a>
+          </li>
+            </Link>
+
+            <Link href="#client">
+
+          <li className="md:px-6 py-2">
+            <a href="#">Client</a>
+          </li>
+            </Link>
+          
             
             
+            <Link href="#office">
+
+            <li className="md:px-6 py-2">
+              <a href="#">Office</a>
+            </li>
+              </Link>
+
             
-            <Link href="/contact">
+            <Link href="#contact">
 
           <li className="md:px-6 py-2">
             <a href="#">Contact</a>

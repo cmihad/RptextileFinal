@@ -61,8 +61,8 @@ const VideoHeader = () => {
     </nav>
     <div className="container mx-auto lg:mt-56 lg:px-16 px-4 py-4">
       <div className="md:pl-8 md:border-l-4 border-white">
-        <h1 className="text-primary md:text-8xl text-2xl font-bold font-sans m-0 md:leading-none">RP Textiles</h1>
-        <p className="text-white text-4xl md:max-w-lg w-full md:my-4">
+        <h1 className="text-primary md:text-7xl text-2xl font-bold font-sans m-0 md:leading-none">RP Textile And Fashion</h1>
+        <p className="text-white text-3xl md:max-w-lg w-full md:my-4">
         Your Trusted Apparel Sourcing Partner
         </p>
       

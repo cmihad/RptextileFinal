@@ -5,7 +5,7 @@ const OurServices = () => {
     <div  className="bg-upda " id="service">
       <div className="py-8 sm:py-20">
       <h1 className="text-white
-           text-center text-2xl  sm:text-3xl tracking-wide font-bold  font-montserrat">
+           text-center text-2xl  sm:text-4xl tracking-wide font-bold  font-montserrat">
             Our Services
           </h1>
       </div>
@@ -25,7 +25,7 @@ const OurServices = () => {
       
         </Image>
          
-          <h2 className="text-nw font-semibold text-2xl pt-4">
+          <h2 className="text-nw font-semibold text-2xl pt-4 font-raleway">
           Design & <br/>
           Development
           </h2>
@@ -41,7 +41,7 @@ const OurServices = () => {
       
         </Image>
 
-        <h2 className="text-nw font-semibold text-2xl pt-6">
+        <h2 className="text-white font-semibold text-2xl pt-6 font-raleway">
 
         Marketing & <br/> Merchandising
         </h2>
@@ -55,7 +55,7 @@ const OurServices = () => {
           >
       
         </Image>
-            <h2 className="text-nw font-semibold text-2xl pt-12">
+            <h2 className="text-nw font-semibold text-2xl pt-12 font-raleway">
             Quality Check, <br/>
           Assurance <br/>
           & Testing
@@ -73,7 +73,7 @@ const OurServices = () => {
       
         </Image>
 
-          <h2 className="text-nw font-semibold text-2xl pt-6">
+          <h2 className="text-white font-semibold text-2xl pt-6 font-raleway">
           Compliance <br/> & Safety
           </h2>
 
@@ -88,7 +88,7 @@ const OurServices = () => {
           >
       
         </Image>
-          <h2 className="text-nw font-semibold text-2xl pt-4">
+          <h2 className="text-nw font-semibold text-2xl pt-4 font-raleway">
           Shipping  <br/>& Logistics
 
           </h2>

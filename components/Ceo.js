@@ -22,7 +22,7 @@ const Ceo = () => {
 
         <img
         
-        src="/signmain.png"
+        src="/signmain1.png"
         width={250}
         height={25}
 

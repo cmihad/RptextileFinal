@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Product = () => {
   return (
     <div className=" bg-upda  " id="product" >
-    <h1 className="text-4xl text-white  font-bold text-center py-16 font-montserrat">
+    <h1 className="text-center text-2xl sm:text-4xl text-white  font-bold text-center py-16 font-montserrat tracking-wide">
       Our Products
     </h1>
 

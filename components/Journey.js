@@ -8,7 +8,7 @@ function Journey() {
             Our Journey
           </h1>
         </div>
-      <div className="bg-gray-900">
+      <div className="bg-pr">
       <div className="journey">
         <p className="text-text text-xl tracking-tight"> Engineer turned entrepreneur, Poritosh Chandra Paul is the founder & CEO of RP Group. Establishing the company back in 2010, he started trading business in the garments sector.
 </p>

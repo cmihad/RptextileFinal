@@ -70,7 +70,7 @@ const OurCustomers = () => {
 
         </div>       
 
-        <div className="mr-24">
+        <div>
 
         <Image className="mx-10"
           src="/Group22.png"
@@ -129,9 +129,9 @@ const OurCustomers = () => {
               <div >
 
               <Image className="mx-10"
-              src="/Asset22@300x.png"
-              width= {308}
-              height={251}
+              src="/customer/jcorp.png"
+              width= {73}
+              height={60}
               >
 
               </Image>
@@ -183,9 +183,9 @@ const OurCustomers = () => {
       <div >
 
 <Image className="mx-10"
-src="/Asset17@300x.png"
-width= {554}
-height={383}
+src="/customer/bluemind1.png"
+width= {81}
+height={55}
 >
 
 </Image>
@@ -193,7 +193,7 @@ height={383}
 </div>      
 
 
-<div >
+{/* <div >
 
 <Image className="mx-10"
 src="/Asset18@300x.png"
@@ -274,7 +274,7 @@ height={135}
 
 </Image>
 
-</div>      
+</div>       */}
 
 <div>
 

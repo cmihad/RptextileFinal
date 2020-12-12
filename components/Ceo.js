@@ -20,7 +20,7 @@ const Ceo = () => {
         </p>
         <div className="pt-6" >
 
-        <img
+        <Image
         
         src="/signmain1.png"
         width={250}

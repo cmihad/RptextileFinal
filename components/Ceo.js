@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Ceo = () => {
   return (
-    <div className="bg-bg-f5 py-40">
+    <div className="bg-bg-f5 py-40" id="about">
 
     
     <div className="container mx-auto ">

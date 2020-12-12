@@ -45,11 +45,11 @@ export default function Home() {
       <CategoryHome>
 
       </CategoryHome>
-      <Product></Product>
  {/* <HeaderDummy></HeaderDummy> */}
       {/* <Services></Services> */}
     {/* <Ready></Ready> */}
     <OurServices></OurServices>
+      <Product></Product>
     <OurCustomers></OurCustomers>
     <OurOffice></OurOffice>
     <ContactUs></ContactUs>

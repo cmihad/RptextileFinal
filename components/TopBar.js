@@ -4,7 +4,7 @@ function TopBar() {
   return (
     <div>
       <div className="hidden  sm:w-full sm:h-10 sm:flex bg-upda  ">
-      <div className="container mx-auto flex justify-between px-6 " >
+      <div className="container mx-auto flex justify-between px-1 pr-3 " >
 
       <div className="flex " >
       <FaFacebookF className=" mb-auto mt-auto text-white px-1 cursor-pointer mr-2" />

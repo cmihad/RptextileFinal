@@ -1,3 +1,4 @@
+
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -28,22 +29,25 @@ module.exports = {
        },
       textColor: {
        
-              'primary': '#44BBA4',
+              'primary': '#111827',
              'secondary': '#ffed4a',
              'danger': '#e3342f',
              'text':'#E5E7EB',
              'nw':'#777C7C'
            },
       colors:{
-            'backgrind':'#e2e8f0',
-            'pr':'#2F7268',
+          'backgrind':'#e2e8f0',
+         'pr':'#2F7268',
          'logo-color':'#56a299',
          'new':'#00D9C0',
          'upda':'#44BBA4',
-         'bg-f5':'#F5F5F5'
+         'bg-f5':'#F5F5F5',
+         'quader': '#111827',
          
          },
          fontFamily:{
+          'montserrat': ['Montserrat'],
+          'raleway': ['Raleway'],
           display: ['Inter', 'system-ui', 'sans-serif'],
           body: ['Poppins', 'system-ui', 'sans-serif'],
         },

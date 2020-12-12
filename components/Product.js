@@ -2,12 +2,12 @@
 import Image from 'next/image'
 const Product = () => {
   return (
-    <div className=" bg-gray-900 " id="product" >
-    <h1 className="text-4xl text-white  font-bold text-center py-8">
-      Our Product
+    <div className=" bg-upda  " id="product" >
+    <h1 className="text-4xl text-white  font-bold text-center py-16 font-montserrat">
+      Our Products
     </h1>
 
-    <div className="container mx-auto grid grid-cols-5 gap-x-8 pb-40 pt-32 place-items-center">
+    <div className= " grid-cols-1 container mx-auto grid sm:grid-cols-5 gap-x-16 pb-40 pt-20 place-items-center">
       <div>
       <Image 
         src="/tshirt1.png"
@@ -16,7 +16,7 @@ const Product = () => {
 
       />
 
-      <h2 className="text-2xl text-white font-semibold text-center pt-8">
+      <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         T-Shirt
       </h2>
      
@@ -26,11 +26,11 @@ const Product = () => {
       <div>
       <Image 
         src="/trouser.png"
-        width={195}
-        height={250}
+        width={160}
+        height={206}
 
       />
-        <h2 className="text-2xl text-white font-semibold text-center pt-8">
+        <h2 className="text-2xl text-white text-center pt-8 font-raleway ">
         Trouser
       </h2>
         
@@ -45,7 +45,7 @@ const Product = () => {
         height={382}
 
       />
-      <h2 className="text-2xl text-white font-semibold text-center pt-8">
+      <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         Shirt
       </h2>
 
@@ -59,7 +59,7 @@ const Product = () => {
         height={382}
 
       />
-        <h2 className="text-2xl text-white font-semibold text-center pt-8">
+        <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         Jacket
       </h2>
 
@@ -69,13 +69,13 @@ const Product = () => {
         
         <Image 
         src="/lin6.png"
-        width={378}
-        height={382}
+        width={165}
+        height={206}
 
       />
-        <h2 className="text-2xl text-white font-semibold text-center pt-8">
+        <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         
-        Under Garments
+        Undergarments
       </h2>
 
         </div>

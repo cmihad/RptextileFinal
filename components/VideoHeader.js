@@ -16,7 +16,7 @@ const VideoHeader = () => {
             <svg className="fill-current text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
           </button>
         </div>
-        <ul data-menu className="md:flex hidden flex-wrap items-center justify-start text-white">
+        <ul data-menu className="md:flex hidden flex-wrap items-center justify-start text-white font-montserrat font-medium uppercase">
           <Link href="/">
 
           <li className="md:px-6 py-2">
@@ -26,36 +26,39 @@ const VideoHeader = () => {
           {/* <li class="md:px-6 py-2">
       <a href="#">Stream/Buy</a>
     </li> */}
-       
+
+         <Link href="#product">
+
+          <li className="md:px-4 py-2">
+            <a href="#">Products</a>
+          </li>
+          </Link>
+
+
 
             <Link href="#about">
 
-          <li className="md:px-6 py-2">
+          <li className="md:px-4 py-2">
             <a href="#">About Us</a>
           </li>
             </Link>
 
             <Link href="#service">
 
-            <li className="md:px-6 py-2">
+            <li className="md:px-4 py-2">
               <a href="#">Services</a>
             </li>
               </Link>
 
 
-            <Link href="#product">
-
-            <li className="md:px-6 py-2">
-              <a href="#">Products</a>
-            </li>
-            </Link>
+            
 
 
            
 
             <Link href="#client">
 
-          <li className="md:px-6 py-2">
+          <li className="md:px-4 py-2">
             <a href="#">Client</a>
           </li>
             </Link>
@@ -64,7 +67,7 @@ const VideoHeader = () => {
             
             <Link href="#office">
 
-            <li className="md:px-6 py-2">
+            <li className="md:px-4 py-2">
               <a href="#">Office</a>
             </li>
               </Link>
@@ -72,7 +75,7 @@ const VideoHeader = () => {
             
             <Link href="#contact">
 
-          <li className="md:px-6 py-2">
+          <li className="md:px-4 py-2">
             <a href="#">Contact</a>
           </li>
             </Link>
@@ -81,8 +84,8 @@ const VideoHeader = () => {
     </nav>
     <div className="container mx-auto lg:mt-56 lg:px-16 px-4 py-4">
       <div className="md:pl-8 md:border-l-4 border-white">
-        <h1 className="text-primary md:text-7xl text-2xl font-bold font-sans m-0 md:leading-none">RP Textile And Fashion</h1>
-        <p className="text-white text-3xl md:max-w-lg w-full md:my-4">
+        <h1 className="text-upda md:text-7xl text-2xl font-bold font-montserrat m-0 md:leading-none">RP Textile And Fashion</h1>
+        <p className="text-white text-2xl md:max-w-lg w-full md:my-4 font-raleway">
         Your Trusted Apparel Sourcing Partner
         </p>
       

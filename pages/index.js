@@ -31,14 +31,14 @@ export default function Home() {
       {/* <Navbar></Navbar> */}
      <VideoHeader></VideoHeader>
       {/* <HomeBanner></HomeBanner> */}
-      <div className="my-8">
-
-      </div>
+     
       {/* <Grid3></Grid3> */}
 
       {/* <News1></News1>
       <News2></News2> */}
+      <Product></Product>
       <Ceo></Ceo>
+    <OurServices></OurServices>
     <Journey></Journey>
       {/* <UcardCategory></UcardCategory> */}
 
@@ -48,8 +48,6 @@ export default function Home() {
  {/* <HeaderDummy></HeaderDummy> */}
       {/* <Services></Services> */}
     {/* <Ready></Ready> */}
-    <OurServices></OurServices>
-      <Product></Product>
     <OurCustomers></OurCustomers>
     <OurOffice></OurOffice>
     <ContactUs></ContactUs>

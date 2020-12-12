@@ -10,7 +10,7 @@ const OurCustomers = () => {
             Companies That We Work With
           </h1>
          
-   <div className=" customer-grid px-4 pb-8 pt-4 md: justify-evenly md:py-4 ">
+   <div className=" customer-grid px-4 pb-8 pt-4 md: justify-evenly  ">
       <div>
 
         <Image className="mx-10"

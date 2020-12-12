@@ -26,8 +26,14 @@ const VideoHeader = () => {
           {/* <li class="md:px-6 py-2">
       <a href="#">Stream/Buy</a>
     </li> */}
+        <Link href="#product">
 
-            <Link href="/about">
+          <li className="md:px-6 py-2">
+            <a href="#">Products</a>
+          </li>
+        </Link>
+
+            <Link href="#about">
 
           <li className="md:px-6 py-2">
             <a href="#">About Us</a>

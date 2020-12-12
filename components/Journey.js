@@ -10,16 +10,19 @@ function Journey() {
         </div>
       <div className="bg-pr">
       <div className="journey">
-        <p className="text-text text-xl tracking-tight">Engineer Turned Entrepreneur Poritosh Chandra Paul is founder of RP Textile & Fashion who establish this company 8 years back in year 2010 and started trading business in Garments sector.</p>
-      <p className="text-text text-xl tracking-tight">Started from small beginnings as a provider of Fabrics, Garments and Accessories to local businesses</p>
-      <p className="text-text text-xl tracking-tight">Lorem Company got is first big office and number of employee turned to 6
+        <p className="text-text text-xl tracking-tight"> Engineer turned entrepreneur, Poritosh Chandra Paul is the founder & CEO of RP Group. Establishing the company back in 2010, he started trading business in the garments sector.
+</p>
+      <p className="text-text text-xl tracking-tight">Started business on a small scale, working as a provider of fabrics, garments, and accessories to other local businesses.</p>
+      <p className="text-text text-xl tracking-tight">RP Textile & Fashion officially working in its first big office with a total of 16 employees.
+
       </p>
       <p className="text-text text-xl tracking-tight">
-        Company keep growing at a very high pace with New clients, and new suppliers adding to the list regularly
+      The construction firm, RP Engineers, witnessed a rapid growth rate, with new clients and suppliers being added to their repertoire regularly.
 
       </p>
       <p className="text-text text-xl tracking-tight">   
-        Company Expanded to to multiple Sector of Clothing Industry, Moved into a very big office and currently employees more than 35 people .
+      The rapidly growing company keeps expanding with ventures in multiple sectors of the clothing industry. Currently operating from their new head office with a total of 100 employees. 
+
       </p>
         
       </div>

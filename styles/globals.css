@@ -59,7 +59,7 @@ a {
   padding-top: 15px;
 }
 .journey p:nth-child(4):before {
-  content: "2018";
+  content: "2019";
   right: 100%; 
   margin-right: -20px;
   position: absolute;
@@ -110,7 +110,7 @@ a {
 }
 
 .journey p:nth-child(3):before {
-  content:  "2014";
+  content:  "2018";
   left: 100%; 
   margin-left: -20px;
   position: absolute;

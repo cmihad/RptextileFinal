@@ -20,13 +20,16 @@ const Ceo = () => {
         </p>
 
         <p className="text-2xl   text-gray-900  font-semibold py-2">MD: Poritosh Chandra Paul</p>
-        <Image
-       
+        <div className="pr-10">
+
+        <img
+         className="pr-40"
         src="/rsign1.png"
-        width={150}
+        width={300}
         height={120}
 
         />
+        </div>
       </div>
 
       <div>

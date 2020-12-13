@@ -129,7 +129,7 @@ const OurCustomers = () => {
               <div >
 
               <Image className="mx-10"
-              src="/customer/jcorp.png"
+              src="/customer/jcrop.png"
               width= {73}
               height={60}
               >

@@ -7,7 +7,7 @@ const Product = () => {
       Our Products
     </h1>
 
-    <div className= " grid-cols-1 container mx-auto grid sm:grid-cols-5 gap-x-16 pb-40 pt-20 place-items-center">
+    <div className= " grid-cols-1  grid sm:grid-cols-5 gap-x-16 pb-40 pt-20 place-items-center">
       <div>
       <Image 
         src="/tshirt1.png"

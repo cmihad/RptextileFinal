@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className="mx-auto">
       {/* <HeaderMain></HeaderMain> */}
-      <TopBar></TopBar>
+      {/* <TopBar></TopBar> */}
       {/* <Navbar></Navbar> */}
      <VideoHeader></VideoHeader>
       {/* <HomeBanner></HomeBanner> */}
@@ -38,8 +38,8 @@ export default function Home() {
       <News2></News2> */}
       <Product></Product>
       <Ceo></Ceo>
-    <OurServices></OurServices>
     <Journey></Journey>
+    <OurServices></OurServices>
       {/* <UcardCategory></UcardCategory> */}
 
       <CategoryHome>

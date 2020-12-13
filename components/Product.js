@@ -27,7 +27,7 @@ const Product = () => {
       <Image 
         src="/trouser.png"
         width={160}
-        height={206}
+        height={350}
 
       />
         <h2 className="text-2xl text-white text-center pt-8 font-raleway ">

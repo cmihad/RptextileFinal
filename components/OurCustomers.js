@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const OurCustomers = () => {
   return (
-    <div className="img-custtomer-bg py-1 " id="client">
+    <div className="img-custtomer-bg py-1 mt-12 " id="client">
 
     <div className="container mx-auto my-0 sm:my-0 "  >
     <h1 className="text-white

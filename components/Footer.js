@@ -11,15 +11,15 @@ function Footer() {
           <div className="w-1/2 md:w-1/4 text-center md:text-left ">
             <h5 className="uppercase mb-6 font-bold">Links</h5>
             <ul className="mb-4">
-              <li className="mt-2">
+              {/* <li className="mt-2">
                 <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">FAQ</a>
-              </li>
-              <li className="mt-2">
+              </li> */}
+              {/* <li className="mt-2">
                 <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Help</a>
               </li>
               <li className="mt-2">
                 <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Support</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="w-1/2 md:w-1/4 text-center md:text-left ">

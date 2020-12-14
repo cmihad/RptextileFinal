@@ -97,7 +97,7 @@ const knit = () => {
 </div>
 
 
-<div>
+{/* <div>
 
 <article class=" rounded-none  ">
 
@@ -112,7 +112,7 @@ const knit = () => {
 
 
 </article>
-</div>
+</div> */}
 
 
 <div>
@@ -121,7 +121,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/8JPG.png"
+  src="/knit/8.jpg"
   width= {400}
   height={450}
   >
@@ -139,7 +139,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/9JPG.png"
+  src="/knit/9.jpg"
   width= {400}
   height={450}
   >
@@ -157,7 +157,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/10JPG.png"
+  src="/knit/10.jpg"
   width= {400}
   height={450}
   >
@@ -175,7 +175,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/11JPG.png"
+  src="/knit/11.jpg"
   width= {400}
   height={450}
   >
@@ -194,7 +194,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/12JPG.png"
+  src="/knit/12.jpg"
   width= {400}
   height={450}
   >
@@ -212,7 +212,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/13JPG.png"
+  src="/knit/13.jpg"
   width= {400}
   height={450}
   >
@@ -230,7 +230,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/14JPG.png"
+  src="/knit/14.jpg"
   width= {400}
   height={450}
   >
@@ -248,7 +248,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/15JPG.png"
+  src="/knit/15.jpg"
   width= {400}
   height={450}
   >
@@ -266,7 +266,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/16JPG.png"
+  src="/knit/16.jpg"
   width= {400}
   height={450}
   >
@@ -284,7 +284,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/17JPG.png"
+  src="/knit/17.jpg"
   width= {400}
   height={450}
   >
@@ -302,7 +302,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/18JPG.png"
+  src="/knit/18.jpg"
   width= {400}
   height={450}
   >
@@ -320,7 +320,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/19JPG.png"
+  src="/knit/19.jpg"
   width= {400}
   height={450}
   >
@@ -338,7 +338,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/20JPG.png"
+  src="/knit/20.jpg"
   width= {400}
   height={450}
   >
@@ -355,7 +355,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/21JPG.png"
+  src="/knit/21.jpg"
   width= {400}
   height={450}
   >
@@ -372,7 +372,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/22JPG.png"
+  src="/knit/22.jpg"
   width= {400}
   height={450}
   >
@@ -389,7 +389,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/23JPG.png"
+  src="/knit/23.jpg"
   width= {400}
   height={450}
   >
@@ -405,7 +405,7 @@ const knit = () => {
 
 <Image 
   
-  src="/knit/24JPG.png"
+  src="/knit/24.jpg"
   width= {400}
   height={450}
   >

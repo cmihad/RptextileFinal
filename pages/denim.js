@@ -79,41 +79,8 @@ const denim = () => {
 </div>
 
 
-<div>
 
-<article class=" rounded-none  ">
-
-<Image 
-  
-  src="/denim/5.png"
-  width= {400}
-  height={450}
-  >
-
-</Image>
-
-
-</article>
-</div>
-
-
-<div>
-
-<article class=" rounded-none  ">
-
-<Image 
-  
-  src="/denim/6.png"
-  width= {400}
-  height={450}
-  >
-
-</Image>
-
-
-</article>
-</div>
-
+{/* 
 
 <div>
 
@@ -130,7 +97,7 @@ const denim = () => {
 
 
 </article>
-</div>
+</div> */}
 
 
 <div>
@@ -209,6 +176,41 @@ const denim = () => {
   src="/denim/12.png"
   width= {400}
   height={450}
+  >
+
+</Image>
+
+
+</article>
+</div>
+
+<div>
+
+<article class=" rounded-none  ">
+
+<Image 
+  
+  src="/denim/5.png"
+  width= {320}
+  height={300}
+  >
+
+</Image>
+
+
+</article>
+</div>
+
+
+<div>
+
+<article class=" rounded-none  ">
+
+<Image 
+  
+  src="/denim/6.png"
+  width= {320}
+  height={300}
   >
 
 </Image>

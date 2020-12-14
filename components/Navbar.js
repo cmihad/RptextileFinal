@@ -1,80 +1,94 @@
 import React from 'react'
-import Link from 'next/link';
-import Image from 'next/image'
-function Navbar() {
+import Link from 'next/link'
+
+
+const Navbar = () => {
   return (
     <div>
-
-    <div className="h-20 w-full bg-transparent flex bg-white ">
-      <div className="container mx-auto px-6 py-2 flex justify-between items-center">
-
-      <div  className="logo mb-auto mt-auto cursor-pointer">
-      <Link href="/">
-
-      <Image
-        src="/Logo.png"
-        width={50}
-        height={55}
-        className="cursor-pointer"
-      >
-
-      </Image>
-      </Link>
-      </div>
-      <div>
-    </div>
-        <ul className="flex  h-full">
-          <li className="mt-auto mb-auto px-3">
+    <nav className="bg-quader">
+   <div className="container mx-auto md:flex block flex-wrap items-center justify-start h-full">
+        <div className="flex-1 flex items-center justify-between ">
+          <Link href="/">
+          <a href="#">
+            <img src="/Logo.png" alt="GSL Logo" width="50" height="45" />
+          </a>
+          </Link>
+          <button data-menu-toggle className="md:hidden block pr-1">
+            <svg className="fill-current text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
+          </button>
+        </div>
+        <ul data-menu className="md:flex hidden flex-wrap items-center justify-start text-white font-montserrat font-medium uppercase">
           <Link href="/">
 
-           <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold">Home</a>
-          </Link>
+          <li className="md:px-6 py-2">
+            <a href="#" className="text-brand">Home</a>
           </li>
-          <li className="mt-auto mb-auto px-3">
-            <Link href="/service">
+          </Link>
+          {/* <li class="md:px-6 py-2">
+      <a href="#">Stream/Buy</a>
+    </li> */}
 
-            <a href="" className=" text-base  sm:text-xl text-black font-body capitalize font-bold">
+         <Link href="#product">
 
-            Services
-            </a>
+          <li className="md:px-4 py-2">
+            <a href="#">Products</a>
+          </li>
+          </Link>
+
+
+            <Link href="#about">
+
+          <li className="md:px-4 py-2">
+            <a href="#">About Us</a>
+          </li>
             </Link>
+
+            <Link href="#service">
+
+            <li className="md:px-4 py-2">
+              <a href="#">Services</a>
+            </li>
+              </Link>
+
+
+            <Link href="#client">
+
+          <li className="md:px-4 py-2">
+            <a href="#">Client</a>
           </li>
-          <li className="mt-auto mb-auto px-3">
-          <Link  href="/about">
+            </Link>
+          
+            
+            
+            <Link href="#office">
 
-            <a href="" className="text-base  sm:text-xl text-black font-body capitalize font-bold">
+            <li className="md:px-4 py-2">
+              <a href="#">Office</a>
+            </li>
+              </Link>
 
-            About Us
-            </a>
-          </Link>
+            
+            <Link href="#contact">
+
+          <li className="md:px-4 py-2">
+            <a href="#">Contact</a>
           </li>
-          <li className="mt-auto mb-auto pl-3">
-          <Link href="/team">
-
-            <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold ">
-
-              
-              Our Team
-            </a>
-          </Link>
-          </li>
-          <li className="mt-auto mb-auto pl-3">
-          <Link href="/contact">
-
-            <a href="" className="text-base sm:text-xl text-black font-body capitalize font-bold ">
-
-              
-              Contact 
-            </a>
-          </Link>
-          </li>
+            </Link>
         </ul>
-
       </div>
+
+  <div class="hidden sm:hidden">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+     
+      <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
     </div>
-    
-    </div>
+  </div>
+</nav>
+</div>
   )
 }
- 
+
 export default Navbar

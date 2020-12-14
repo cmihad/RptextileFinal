@@ -12,10 +12,10 @@ const Ceo = () => {
         {/* <h3 className="text-xl  text-gray-700 py-2">
           About Us
         </h3> */}
-        <h1 className="text-5xl text-gray-800 font-bold  font-montserrat">
+        <h1 className="text-center sm:text-left text-5xl text-gray-800 font-bold  font-montserrat">
           Founder's Note
         </h1>
-        <p className="text-lg  text-gray-900 py-2 mr-20 font-raleway">
+        <p className="text-center sm:text-left text-lg  text-gray-900 py-2 sm:mr-20 font-raleway">
         We aim to put forward the best so that our clients never turn away from our doors unsatisfied. To ensure that we can achieve that, two things are extremely crucial: prioritizing our customers and working as a team. Moreover, our team consists of textile suppliers, designers, service providers, manufacturers, merchandisers, all experts in their own fields.
         </p>
         <div className="pt-6" >

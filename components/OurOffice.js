@@ -14,11 +14,11 @@ const OurOffice = () => {
           
           
           <div className="pt-0 pb-8 sm:pt-10">
-          <h1 className="text-2xl tracking-tight font-display text-gray-700 font-bold">
+          <h1 className="text-center sm:text-left text-2xl tracking-tight font-display text-gray-700 font-bold">
             OUR Office
           </h1>
     
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-center  ">
+          <div className="grid grid-cols-1 text-center sm:text-left md:grid-cols-2 justify-center  ">
 
             <div className="mb-4 ">
               <h1 className="text-2xl tracking-tight font-display text-gray-700 font-bold"> Dhaka Office</h1>

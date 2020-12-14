@@ -5,28 +5,19 @@ import Link from 'next/link'
 const Nav = () => {
   return (
     <div>
-      <nav className="md: z-10 overflow-hidden fixed w-full">
+      <nav className="md: z-10 overflow-hidden fixed w-full h-20">
     {/* <Topbar></Topbar> */}
 
 
 
+      <div className="container mx-auto md:flex block flex-wrap items-center justify-start h-full">
+        <div className="flex-1 flex items-center justify-between ">
+        <Link href="/">
 
-
-
-
-
-
-
-
-
-
-
-
-      <div className="container mx-auto md:flex block flex-wrap items-center justify-start">
-        <div className="flex-1 flex items-center justify-between">
           <a href="#">
             <img src="/Logo.png" alt="GSL Logo" width="50" height="45" />
           </a>
+        </Link>
           <button data-menu-toggle className="md:hidden block pr-1">
             <svg className="fill-current text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
           </button>

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const OurCustomers = () => {
   return (
-    <div className="img-custtomer-bg py-1 mt-12 " id="client">
+    <div className="bg-gray-800 img-custtomer-bg  py-1 mt-12 " id="client">
 
     <div className="container mx-auto my-0 sm:my-0 "  >
     <h1 className="text-white
@@ -180,7 +180,7 @@ const OurCustomers = () => {
       </div>      
 
 
-      <div >
+      {/* <div >
 
 <Image className="mx-10"
 src="/customer/bluemind1.png"
@@ -190,7 +190,7 @@ height={55}
 
 </Image>
 
-</div>      
+</div>       */}
 
 
 {/* <div >

@@ -43,6 +43,10 @@ module.exports = {
          'upda':'#44BBA4',
          'bg-f5':'#F5F5F5',
          'quader': '#111827',
+         'compliance':'#1F2937',
+         'primary1': '#111827',
+         
+         
          
          },
          fontFamily:{

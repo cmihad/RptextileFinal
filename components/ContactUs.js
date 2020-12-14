@@ -7,7 +7,7 @@ function ContactUs() {
   return (
 
 
-  <div className="mt-4 bg-upda" id="contact">
+  <div className="mt-4 bg-compliance" id="contact">
     <div class=" flex flex-col py-16 sm:place-items-center sm:flex-col justify-center sm:py-12">
 
         <div className="mx-12 my-6">
@@ -26,17 +26,21 @@ function ContactUs() {
       </h1>
     
       <div className="flex justify-center mt-3">
-      <FaFacebookF className=" text-center text-white text-3xl my-5 mx-4 cursor-pointer" />
+      <Link href="https://www.facebook.com/RP-Textile-Fashion-545210429278815/">
 
-      <Link href="https://mihad.dev/" >
+      <FaFacebookF className=" text-center text-white text-3xl my-5 mx-4 cursor-pointer" />
+      </Link>
+      <Link href="https://www.linkedin.com/company/r-p-textile-and-fashion">
 
 
       <FaLinkedinIn className="text-white text-3xl my-5 mx-4  cursor-pointer" />
       </Link>
 
-     
+      <Link href="http://wa.me/8801710267919"> 
 
       <FaTelegramPlane className="text-white text-3xl my-5 mx-4  cursor-pointer" />
+      
+      </Link>
       <Link href="http://wa.me/8801710267919"> 
 
         <FaWhatsapp  

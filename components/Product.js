@@ -1,13 +1,14 @@
 
 import Image from 'next/image'
+import Link from 'next/link'
 const Product = () => {
   return (
-    <div className=" bg-upda  " id="product" >
-    <h1 className="text-center text-2xl sm:text-4xl text-white  font-bold text-center py-16 font-montserrat tracking-wide">
+    <div className="bg-gray-800 bg-product " id="product"  >
+    <h1 className="text-center text-2xl sm:text-4xl text-white  font-bold py-16 font-montserrat tracking-wide">
       Our Products
     </h1>
 
-    <div className= " grid-cols-1  grid sm:grid-cols-5 gap-x-16 pb-40 pt-20 place-items-center">
+    <div className= " grid-cols-1  grid sm:grid-cols-5 gap-x-16 pb-16 pt-20 place-items-center">
       <div>
       <Image 
         src="/tshirt1.png"
@@ -25,9 +26,9 @@ const Product = () => {
 
       <div>
       <Image 
-        src="/trouser.png"
-        width={160}
-        height={350}
+        src="/pantmain1.png"
+        width={120}
+        height={240}
 
       />
         <h2 className="text-2xl text-white text-center pt-8 font-raleway ">
@@ -79,6 +80,20 @@ const Product = () => {
       </h2>
 
         </div>
+    </div>
+    
+    
+    <div className="text-center pb-24">
+
+      <Link href="/collections">
+
+      <button className="text-center w-64 h-12 bg-bg-f5 rounded-md">
+       <h1 className="font-montserrat font-bold">
+
+        Our Collections
+       </h1>
+      </button>
+      </Link>
     </div>
     </div>
   )

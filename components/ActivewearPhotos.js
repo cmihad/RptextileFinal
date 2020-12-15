@@ -1,6 +1,6 @@
 export const photos = [
   {
-    src: "/Activewear/1m.png",
+    src: "/activewear/1m.png",
     width: 6,
     height: 4
   },

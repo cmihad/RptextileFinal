@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Services from '../components/Services'
 import Image from 'next/image'
-import CategoryHome from '../components/CategoryHome'
+
 import Footer from '../components/Footer'
 
 import OurCustomers from '../components/OurCustomers'
@@ -19,18 +19,12 @@ export default function Home() {
    
      <VideoHeader></VideoHeader>
      
-     
       <Product></Product>
       <Ceo></Ceo>
       <Timeline></Timeline>
    
     <OurServices></OurServices>
     
-
-      <CategoryHome>
-
-      </CategoryHome>
- 
     <OurCustomers></OurCustomers>
     <OurOffice></OurOffice>
     <ContactUs></ContactUs>

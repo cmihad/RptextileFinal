@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div>
     <nav className="bg-quader">
-   <div className="container mx-auto md:flex block flex-wrap items-center justify-start h-full">
-        <div className="flex-1 flex items-center justify-between ">
+   <div className="container mx-auto md:flex block flex-wrap items-center justify-start h-full py-4 px-12">
+        <div className="flex-1 flex items-center justify-between  ">
           <Link href="/">
           <a href="#">
             <img src="/Logo.png" alt="GSL Logo" width="50" height="45" />
@@ -21,54 +21,54 @@ const Navbar = () => {
           <Link href="/">
 
           <li className="md:px-6 py-2">
-            <a href="#" className="text-brand">Home</a>
+            <a href="/" className="text-brand">Home</a>
           </li>
           </Link>
           {/* <li class="md:px-6 py-2">
       <a href="#">Stream/Buy</a>
     </li> */}
 
-         <Link href="#product">
+         <Link href="/#product">
 
           <li className="md:px-4 py-2">
-            <a href="#">Products</a>
+            <a href="/#">Products</a>
           </li>
           </Link>
 
 
-            <Link href="#about">
+            <Link href="/#about">
 
           <li className="md:px-4 py-2">
-            <a href="#">About Us</a>
+            <a href="/#">About Us</a>
           </li>
             </Link>
 
-            <Link href="#service">
+            <Link href="/#service">
 
             <li className="md:px-4 py-2">
-              <a href="#">Services</a>
+              <a href="/#">Services</a>
             </li>
               </Link>
 
 
-            <Link href="#client">
+            <Link href="/#client">
 
           <li className="md:px-4 py-2">
-            <a href="#">Client</a>
+            <a href="/#">Client</a>
           </li>
             </Link>
           
             
             
-            <Link href="#office">
+            <Link href="/#office">
 
             <li className="md:px-4 py-2">
-              <a href="#">Office</a>
+              <a href="/#">Office</a>
             </li>
               </Link>
 
             
-            <Link href="#contact">
+            <Link href="/#contact">
 
           <li className="md:px-4 py-2">
             <a href="#">Contact</a>

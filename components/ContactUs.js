@@ -20,7 +20,7 @@ function ContactUs() {
      
         </div>
       <div className=" mx-12 my-6">
-      <h1  className=" text-center font-body text-white text-2xl tracking-tighter ">
+      <h1  className=" text-center font-raleway text-white text-2xl tracking-tighter ">
         For more info  please contact us  +88 01710267919 (BD) <br/>
         info@rptextile.com
       </h1>

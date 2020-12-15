@@ -1,7 +1,4 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Services from '../components/Services'
-import Image from 'next/image'
+
 
 import Footer from '../components/Footer'
 

@@ -25,7 +25,7 @@ const Nav = () => {
         <ul data-menu className="md:flex hidden flex-wrap items-center justify-start text-white font-montserrat font-medium uppercase">
           <Link href="/">
 
-          <li className="md:px-6 py-2">
+          <li className="md:px-6 py-2 ">
             <a href="#" className="text-brand">Home</a>
           </li>
           </Link>

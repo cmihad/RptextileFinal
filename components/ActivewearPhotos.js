@@ -5,52 +5,52 @@ export const photos = [
     height: 4
   },
   {
-    src: "/Activewear/2m.png",
+    src: "/activewear/2m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/3m.png",
+    src: "/activewear/3m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/4m.png",
+    src: "/activewear/4m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/5m.png",
+    src: "/activewear/5m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/6m.png",
+    src: "/activewear/6m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/7m.png",
+    src: "/activewear/7m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/8m.png",
+    src: "/activewear/8m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/9m.png",
+    src: "/activewear/9m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/10m.png",
+    src: "/activewear/10m.png",
     width: 6,
     height: 4
   },
   {
-    src: "/Activewear/11m.png",
+    src: "/activewear/11m.png",
     width: 6,
     height: 4
   },

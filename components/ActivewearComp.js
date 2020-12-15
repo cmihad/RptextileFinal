@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./ActivewearPhotos";
+import { photos} from './ActivewearPhotos'
 
 function ActivewearComp() {
   const [currentImage, setCurrentImage] = useState(0);

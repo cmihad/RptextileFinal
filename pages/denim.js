@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 import Navbar from '../components/Navbar'
 
 import Tab1s from '../components/Tab1s'

@@ -6,7 +6,7 @@ const VideoHeader = () => {
   return (
     <header className="header relative lg:overflow-hidden z-10">
     <div className="absolute inset-0 -z-back lg:opacity-100 opacity-50 h-full">
-      <video src="video6.mp4" autoPlay muted loop className="object-cover w-full h-full" />
+      <video src="video5.mp4" autoPlay muted loop className="object-cover w-full h-full" />
     </div>
       <Nav></Nav>
     <div className="text-video">

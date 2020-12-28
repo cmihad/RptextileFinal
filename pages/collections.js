@@ -7,11 +7,11 @@ const collections = () => {
     <div >
 
      <Navbar></Navbar>
-     <div className="grid grid-cols-3 grid-rows-3 container mx-auto" >
+     <div className="grid-cols-1 grid sm:grid-cols-3 grid-rows-3 container mx-auto" >
      <div class="my-1 px-1 w-full lg:my-4 lg:px-4 row-span-2">
 
-<article class="overflow-hidden rounded-lg shadow-lg relative text-center" >
-<div className='absolute centerd '>
+        <article class="overflow-hidden rounded-lg shadow-lg relative text-center" >
+        <div className='absolute centerd '>
 
       <h1 className=" text-white font-montserrat text-2xl uppercase font-bold text-center">
                 Active Wear

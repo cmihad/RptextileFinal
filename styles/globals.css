@@ -253,6 +253,7 @@ a {
 }
 .header nav{
   background: rgba(0, 0, 0, 0.7);
+ 
 }
 .video-cta{
   height: auto;
@@ -267,4 +268,10 @@ a {
   }
 
   
+}
+@media(max-width: 600px){
+  .header nav{
+    background: rgba(0, 0, 0, 0.7);
+   
+  }
 }

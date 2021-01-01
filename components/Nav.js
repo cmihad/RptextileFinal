@@ -11,7 +11,7 @@ const Nav = () => {
 
 
       <div className="container mx-auto md:flex block flex-wrap items-center justify-start h-full">
-        <div className="flex-1 flex items-center justify-between ">
+        <div className="flex-1 flex items-center justify-between py-2 px-2 ">
         <Link href="/">
 
           <a href="#">

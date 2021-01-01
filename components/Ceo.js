@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Ceo = () => {
   return (
-    <div className="bg-bg-f5 py-40" id="about">
+    <div className="py-8 bg-bg-f5 sm:py-40" id="about">
 
     
     <div className="container mx-auto ">
@@ -12,13 +12,13 @@ const Ceo = () => {
         {/* <h3 className="text-xl  text-gray-700 py-2">
           About Us
         </h3> */}
-        <h1 className="text-center sm:text-left text-5xl text-gray-800 font-bold  font-montserrat">
+        <h1 className="text-4xl text-left ml-4 sm:text-left sm:text-5xl text-gray-800 font-bold  font-montserrat">
           Founder's Note
         </h1>
-        <p className="text-center sm:text-left text-lg  text-gray-900 py-2 sm:mr-20 font-raleway">
+        <p className="mx-4 text-left  sm:text-left text-lg  text-gray-900 py-2 sm:mr-20 font-raleway sm:mx-0 ">
         We aim to put forward the best so that our clients never turn away from our doors unsatisfied. To ensure that we can achieve that, two things are extremely crucial: prioritizing our customers and working as a team. Moreover, our team consists of textile suppliers, designers, service providers, manufacturers, merchandisers, all experts in their own fields.
         </p>
-        <div className="pt-6" >
+        <div className="pt-6 mx-4 sm:mx-0 " >
 
         <Image
         
@@ -28,8 +28,8 @@ const Ceo = () => {
 
         />
         </div>
-        <p className="text-2xl   text-gray-900 pt-2 font-montserrat font-semibold"> Poritosh Chandra Paul</p>
-        <p className="text-2xl   text-gray-900   font-montserrat font-medium"> Managing Director</p>
+        <p className="mx-4 text-2xl  sm:mx-0 text-gray-900 pt-2 font-montserrat font-semibold"> Poritosh Chandra Paul</p>
+        <p className="mx-4 text-2xl sm:mx-0   text-gray-900   font-montserrat font-medium"> Managing Director</p>
        
       </div>
 

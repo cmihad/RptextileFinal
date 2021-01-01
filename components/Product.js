@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Product = () => {
   return (
     <div className="bg-gray-800 bg-product " id="product"  >
-    <h1 className="text-center text-2xl sm:text-4xl text-white  font-bold py-16 font-montserrat tracking-wide">
+    <h1 className=" py-8 text-center text-2xl sm:text-4xl text-white  font-bold md:py-16 font-montserrat tracking-wide">
       Our Products
     </h1>
 
@@ -74,6 +74,7 @@ const Product = () => {
         width={165}
         height={206}
         priority={true}
+      
       />
         <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         

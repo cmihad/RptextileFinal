@@ -7,10 +7,10 @@ function ContactUs() {
   return (
 
 
-  <div className="mt-4 bg-compliance" id="contact">
+  <div className="mt-0 sm:mt-4 bg-compliance" id="contact">
     <div class=" flex flex-col py-16 sm:place-items-center sm:flex-col justify-center sm:py-12">
 
-        <div className="mx-12 my-6">
+        <div className="mx-24 my-2">
         <Image
          src="/Layer2@2x.png"
          width={220}
@@ -19,7 +19,7 @@ function ContactUs() {
 
      
         </div>
-      <div className=" mx-12 my-6">
+      <div className=" mx-12 mt-6">
       <h1  className=" text-center font-raleway text-white text-2xl tracking-tighter ">
         For more info  please contact us  +88 01710267919 (BD) <br/>
         info@rptextile.com

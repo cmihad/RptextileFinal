@@ -13,9 +13,10 @@ function Footer() {
          
             <h5 className="uppercase mb-6 font-bold">Proud Member of</h5>
             <Image 
-            src="/logobgmea.png"
-            width={120}
-            height={110}
+            src="/bgba1.png"
+            width={150}
+            height={100}
+       
 
           />
             <ul className="mb-4">

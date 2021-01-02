@@ -45,6 +45,7 @@ module.exports = {
          'quader': '#111827',
          'compliance':'#1F2937',
          'primary1': '#111827',
+         'white-F9':'#F8F8F9',
          
          
          

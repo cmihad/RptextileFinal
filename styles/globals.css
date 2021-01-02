@@ -258,6 +258,19 @@ a {
 .video-cta{
   height: auto;
 }
+.overlay-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #5a5a5a;
+  opacity: 0;
+  color: white;
+}
+.overlay-1:hover{
+  opacity: 1;
+}
 @media(min-width : 1024px){
 
   .header{

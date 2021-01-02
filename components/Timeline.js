@@ -2,10 +2,10 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-   <div className="bg-gray-200 ">
+   <div className="bg-white-F9 ">
 
 
-    <div className="container bg-gray-200 mx-auto w-full h-full">
+    <div className="container bg-white-F9  mx-auto w-full h-full">
     <div className="relative wrap overflow-hidden p-10 h-full">
     <h1 className="text-2xl my-6 sm:text-4xl font-bold text-center text-gray-800 mb-8  font-montserrat">
             Our Journey

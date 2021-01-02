@@ -10,6 +10,7 @@ import VideoHeader from '../components/VideoHeader'
 import Ceo from '../components/Ceo'
 import Product from '../components/Product'
 import Timeline from '../components/Timeline'
+import NewServices from '../components/NewServices'
 
 
 // let client = require('contentful').createClient({
@@ -44,8 +45,8 @@ export default function Home( ) {
       <Ceo></Ceo>
       <Timeline></Timeline>
    
-    <OurServices></OurServices>
-    
+    {/* <OurServices></OurServices> */}
+    <NewServices></NewServices>
     <OurCustomers></OurCustomers>
     <OurOffice></OurOffice>
     <ContactUs></ContactUs>

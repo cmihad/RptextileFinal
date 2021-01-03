@@ -11,7 +11,7 @@ const OurOffice = () => {
           
    
 
-          <div className="my-0 place-items-center sm:my-16 grid grid-cols-1 md:grid-cols-3 container mx-auto ">
+          <div className="my-0 place-items-center sm:my-16 grid grid-cols-1 md:grid-cols-1 container mx-auto ">
           
           
           <div className="pt-0 pb-8 sm:pt-10">

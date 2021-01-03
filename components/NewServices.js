@@ -144,7 +144,8 @@ Through the management structure of our compliance team, we specifically appoint
         </div>
 
     
-       
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0e6720fc-039d-40d2-a134-8fd441a4db01"></div>
 
       </div>
    

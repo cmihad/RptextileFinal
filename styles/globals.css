@@ -268,7 +268,7 @@ a {
   opacity: 0;
   color: white;
 }
-.overlay-1:hover{
+.overlay-1:hover , .overlay-1:active{
   opacity: 1;
 }
 @media(min-width : 1024px){

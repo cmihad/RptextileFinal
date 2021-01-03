@@ -11,7 +11,8 @@ import Ceo from '../components/Ceo'
 import Product from '../components/Product'
 import Timeline from '../components/Timeline'
 import NewServices from '../components/NewServices'
-
+import SimpleMap from '../components/SimpleMap'
+import OurOffice1 from '../components/OurOffice1'
 
 // let client = require('contentful').createClient({
 //   space: process.env.NEXT_CONTENTFUL_SPACE_ID,
@@ -48,8 +49,13 @@ export default function Home( ) {
     {/* <OurServices></OurServices> */}
     <NewServices></NewServices>
     <OurCustomers></OurCustomers>
-    <OurOffice></OurOffice>
+    
+    <OurOffice1></OurOffice1>
+
+    {/* <OurOffice></OurOffice>  */}
+    <SimpleMap></SimpleMap>
     <ContactUs></ContactUs>
+
     <Footer></Footer>
 
     </div>

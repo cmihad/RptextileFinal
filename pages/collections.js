@@ -7,8 +7,41 @@ const collections = () => {
     <div >
 
      <Navbar></Navbar>
-     <div className="grid-cols-1 grid sm:grid-cols-3 grid-rows-3 container mx-auto" >
-     <div class="my-1 px-1 w-full lg:my-4 lg:px-4 row-span-2">
+     
+           <div className="grid-cols-1 grid sm:grid-cols-3 grid-rows-3 container mx-auto" >
+           <div class="my-1 px-1 w-full lg:my-4 lg:px-4 ">
+
+          
+            <article class="overflow-hidden rounded-lg shadow-lg relative 0 bg-red-800">
+
+
+            <div className='absolute centerd '>
+
+                  <h1 className=" text-white font-montserrat text-2xl uppercase font-bold text-center">
+                           Trending
+                        </h1>
+                        <Link href="/knit">
+
+                        <button className="w-24 h-10 bg-red-500 rounded-md font-semibold font-raleway text-center">
+                        see more
+                      </button>
+                        </Link>
+
+                  </div>
+
+                       <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://images.unsplash.com/photo-1580155563870-c75b192ee775?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=100"/>
+                </a>
+
+               
+
+            </article>
+            
+
+        </div>
+
+
+      <div class="my-1 px-1 w-full lg:my-4 lg:px-4 row-span-2">
 
         <article class="overflow-hidden rounded-lg shadow-lg relative text-center" >
         <div className='absolute centerd '>
@@ -34,7 +67,7 @@ const collections = () => {
 </article>
 
 
-</div>
+</div> 
 
 
 <div class="my-1 px-1 w-full lg:my-4 lg:px-4 ">

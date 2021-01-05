@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import OurCustomers from '../components/OurCustomers'
 import ContactUs from '../components/ContactUs'
 import OurOffice from '../components/OurOffice'
-import OurServices from '../components/OurServices'
+
 import VideoHeader from '../components/VideoHeader'
 import Ceo from '../components/Ceo'
 import Product from '../components/Product'
@@ -46,7 +46,7 @@ export default function Home( ) {
       <Ceo></Ceo>
       <Timeline></Timeline>
    
-    {/* <OurServices></OurServices> */}
+  
     <NewServices></NewServices>
     <OurCustomers></OurCustomers>
     

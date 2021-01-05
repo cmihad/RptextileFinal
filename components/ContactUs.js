@@ -7,7 +7,7 @@ function ContactUs() {
   return (
 
 
-  <div className="mt-0 sm:mt-4 bg-compliance" id="contact">
+  <div className="mt-0  bg-compliance" id="contact">
     <div class=" flex flex-col py-16 sm:place-items-center sm:flex-col justify-center sm:py-12">
 
         <div className="mx-24 my-2">

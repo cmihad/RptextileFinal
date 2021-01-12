@@ -9,6 +9,7 @@ import Timeline from '../components/Timeline'
 import NewServices from '../components/NewServices'
 import SimpleMap from '../components/SimpleMap'
 import OurOffice1 from '../components/OurOffice1'
+import FacebookChat from '../components/FacebookChat'
 
 // let client = require('contentful').createClient({
 //   space: process.env.NEXT_CONTENTFUL_SPACE_ID,
@@ -26,7 +27,7 @@ import OurOffice1 from '../components/OurOffice1'
 
 //     revalidate: 1,
 //   }
-   
+
 // }
 
 
@@ -35,17 +36,17 @@ export default function Home( ) {
 
   return (
     <div className="mx-auto">
-   
+
      <VideoHeader></VideoHeader>
-     
+
       <Product></Product>
       <Ceo></Ceo>
       <Timeline></Timeline>
-   
-  
+
+
     <NewServices></NewServices>
     <OurCustomers></OurCustomers>
-    
+
     <OurOffice1></OurOffice1>
 
     {/* <OurOffice></OurOffice>  */}
@@ -53,8 +54,8 @@ export default function Home( ) {
     <ContactUs></ContactUs>
 
     <Footer></Footer>
-
+<FacebookChat></FacebookChat>
     </div>
-   
+
   )
 }

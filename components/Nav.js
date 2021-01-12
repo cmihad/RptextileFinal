@@ -5,17 +5,17 @@ import Link from 'next/link'
 const Nav = () => {
   return (
     <div>
-      <nav className="md: z-10 overflow-hidden fixed w-full h-20">
+      <nav className="md: z-10 overflow-hidden fixed w-full h-24">
     {/* <Topbar></Topbar> */}
 
 
 
       <div className="container mx-auto md:flex block flex-wrap items-center justify-start h-full">
-        <div className="flex-1 flex items-center justify-between py-2 px-2 ">
+        <div className="flex-1 flex items-center justify-between  px-2 ">
         <Link href="/">
 
           <a href="#">
-            <img src="/logo1.png" alt="GSL Logo" width="50" height="45" />
+            <img src="/logo1.png" alt="GSL Logo" width="75" height="150" />
           </a>
         </Link>
           <button data-menu-toggle className="md:hidden block pr-1">

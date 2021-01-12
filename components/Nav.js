@@ -15,7 +15,7 @@ const Nav = () => {
         <Link href="/">
 
           <a href="#">
-            <img src="/Logo1.png" alt="GSL Logo" width="50" height="45" />
+            <img src="/logo1.png" alt="GSL Logo" width="50" height="45" />
           </a>
         </Link>
           <button data-menu-toggle className="md:hidden block pr-1">
@@ -57,10 +57,10 @@ const Nav = () => {
               </Link>
 
 
-            
 
 
-           
+
+
 
             <Link href="#client">
 
@@ -68,9 +68,9 @@ const Nav = () => {
             <a href="#">Client</a>
           </li>
             </Link>
-          
-            
-            
+
+
+
             <Link href="#office">
 
             <li className="md:px-4 py-2">
@@ -78,7 +78,7 @@ const Nav = () => {
             </li>
               </Link>
 
-            
+
             <Link href="#contact">
 
           <li className="md:px-4 py-2">

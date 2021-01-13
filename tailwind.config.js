@@ -22,13 +22,13 @@ module.exports = {
       '8xl':'6.5rem',
       '9xl':'8rem',
      },
-    
+
     extend: {
       zIndex: {
         '-back': '-10',
        },
       textColor: {
-       
+
               'primary': '#111827',
              'secondary': '#ffed4a',
              'danger': '#e3342f',
@@ -46,9 +46,10 @@ module.exports = {
          'compliance':'#1F2937',
          'primary1': '#111827',
          'white-F9':'#F8F8F9',
-         
-         
-         
+         'new-white':'#F3F5F7'
+
+
+
          },
          fontFamily:{
           'montserrat': ['Montserrat'],
@@ -56,7 +57,7 @@ module.exports = {
           display: ['Inter', 'system-ui', 'sans-serif'],
           body: ['Poppins', 'system-ui', 'sans-serif'],
         },
-        
+
     },
   },
   variants: {},

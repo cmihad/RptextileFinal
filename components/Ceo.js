@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 const Ceo = () => {
   return (
-    <div className="py-8 bg-bg-f5 sm:py-40" id="about">
+    <div className="py-8 bg-new-white sm:py-40" id="about">
 
-    
+
     <div className="container mx-auto ">
     <div className="md:grid md:grid-cols-2 place-items-center">
 
@@ -21,7 +21,7 @@ const Ceo = () => {
         <div className="pt-6 mx-4 sm:mx-0 " >
 
         <Image
-        
+
         src="/rsz_sign.png"
         width={250}
         height={50}
@@ -30,7 +30,7 @@ const Ceo = () => {
         </div>
         <p className="mx-4 text-2xl  sm:mx-0 text-gray-900 pt-2 font-montserrat font-semibold"> Poritosh Chandra Paul</p>
         <p className="mx-4 text-2xl sm:mx-0   text-gray-900   font-montserrat font-medium"> Managing Director</p>
-       
+
       </div>
 
       <div>
@@ -40,12 +40,12 @@ const Ceo = () => {
           height={3264}
           className="rounded-2xl "
 
-        
+
         />
 
-        
+
       </div>
-      
+
     </div>
     </div>
 

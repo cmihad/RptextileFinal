@@ -17,16 +17,16 @@ function ContactUs() {
          height={207}
         />
 
-     
+
         </div>
       <div className=" mx-12 mt-6">
       <h1  className=" text-center font-raleway text-white text-2xl tracking-tighter ">
         For more info  please contact us  +88 01710267919 (BD) <br/>
         info@rptextile.com
       </h1>
-    
+
       <div className="flex justify-center mt-3">
-      <Link href="https://www.facebook.com/RP-Textile-Fashion-545210429278815/">
+      <Link href="https://www.facebook.com/rptf21">
 
       <FaFacebookF className=" text-center text-white text-3xl my-5 mx-4 cursor-pointer" />
       </Link>
@@ -36,24 +36,24 @@ function ContactUs() {
       <FaLinkedinIn className="text-white text-3xl my-5 mx-4  cursor-pointer" />
       </Link>
 
-      <Link href="http://wa.me/8801710267919"> 
+      <Link href="http://wa.me/8801710267919">
 
       <FaTelegramPlane className="text-white text-3xl my-5 mx-4  cursor-pointer" />
-      
-      </Link>
-      <Link href="http://wa.me/8801710267919"> 
 
-        <FaWhatsapp  
+      </Link>
+      <Link href="http://wa.me/8801710267919">
+
+        <FaWhatsapp
         className= "text-center text-white text-3xl my-5 mx-4  cursor-pointer" />
 
         </Link>
-     
+
       </div>
 
         </div>
     </div>
   </div>
- 
+
 )
 }
 

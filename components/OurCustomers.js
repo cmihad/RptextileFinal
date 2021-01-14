@@ -9,7 +9,7 @@ const OurCustomers = () => {
            text-center text-2xl my-4 sm:text-4xl sm:my-10 tracking-wide font-bold  font-display">
             Companies That We Work With
           </h1>
-         
+
    <div className=" customer-grid px-4 pb-8 pt-4 md: justify-evenly  ">
       <div>
 
@@ -18,9 +18,9 @@ const OurCustomers = () => {
           width= {114}
           height={71}
           >
-      
+
         </Image>
-    
+
       </div>
 
       <div>
@@ -30,9 +30,9 @@ const OurCustomers = () => {
           width= {87}
           height={66}
           >
-      
+
         </Image>
-    
+
       </div>
       <div>
 
@@ -41,9 +41,9 @@ const OurCustomers = () => {
           width= {63}
           height={55}
           >
-      
+
         </Image>
-    
+
       </div>
 
       <div>
@@ -53,7 +53,7 @@ const OurCustomers = () => {
           width= {177}
           height={40}
           >
-      
+
         </Image>
         </div>
 
@@ -65,10 +65,10 @@ const OurCustomers = () => {
           width= {130}
           height={25}
           >
-      
+
         </Image>
 
-        </div>       
+        </div>
 
         <div>
 
@@ -77,10 +77,10 @@ const OurCustomers = () => {
           width= {86}
           height={75}
           >
-      
+
         </Image>
 
-          </div>      
+          </div>
 
 
           <div>
@@ -90,9 +90,9 @@ const OurCustomers = () => {
           width= {160}
           height={40}
           >
-      
+
         </Image>
-            </div>    
+            </div>
             <div>
 
             <Image className="mx-10"
@@ -100,9 +100,9 @@ const OurCustomers = () => {
             width= {160}
             height={40}
             >
-        
+
             </Image>
-            </div>     
+            </div>
 
 
            <div>
@@ -112,10 +112,10 @@ const OurCustomers = () => {
             width= {140}
             height={38}
             >
-        
+
             </Image>
-            </div>      
-            
+            </div>
+
            <div >
 
               <Image className="mx-10"
@@ -125,7 +125,7 @@ const OurCustomers = () => {
               >
 
               </Image>
-              </div>      
+              </div>
               <div >
 
               <Image className="mx-10"
@@ -135,7 +135,7 @@ const OurCustomers = () => {
               >
 
               </Image>
-            </div>      
+            </div>
 
       <div >
 
@@ -146,7 +146,7 @@ const OurCustomers = () => {
         >
 
         </Image>
-              </div>      
+              </div>
         <div >
 
       <Image className="mx-10"
@@ -156,7 +156,7 @@ const OurCustomers = () => {
       >
 
       </Image>
-      </div>      
+      </div>
     <div >
 
       <Image className="mx-10"
@@ -166,7 +166,7 @@ const OurCustomers = () => {
       >
 
       </Image>
-      </div>      
+      </div>
         <div >
 
         <Image className="mx-10"
@@ -177,72 +177,72 @@ const OurCustomers = () => {
 
       </Image>
 
-      </div>      
+      </div>
 
 
-      {/* <div >
+      <div >
 
 <Image className="mx-10"
 src="/customer/bluemind1.png"
-width= {81}
+width= {105}
 height={55}
 >
 
 </Image>
 
-</div>       */}
+</div>
 
 
-{/* <div >
+ <div >
 
 <Image className="mx-10"
-src="/Asset18@300x.png"
-width= {281}
-height={290}
+src="/customer/rsz_horst-bg.png"
+width= {65}
+height={67}
 >
 
 </Image>
 
-</div>      
+</div>
 
 
 <div >
 
 <Image className="mx-10"
 src="/Asset19@300x.png"
-width= {504}
-height={112}
+width= {112}
+height={26}
 >
 
 </Image>
 
-</div>      
+</div>
 
 
 <div >
 
 <Image className="mx-10"
 src="/Asset20@300x.png"
-width= {623}
-height={91}
+width= {77}
+height={12}
 >
 
 </Image>
 
-</div>      
+</div>
 
 
 <div >
 
 <Image className="mx-10"
 src="/Asset21@300x.png"
-width= {607}
-height={180}
+width= {136}
+height={36}
 >
 
 </Image>
 
-</div>      
+</div>
 
 
 
@@ -250,46 +250,46 @@ height={180}
 
 
 
-</div>      
+</div>
 
 <div >
 
 <Image className="mx-10"
 src="/Asset23@300x.png"
-width= {870}
-height={200}
+width= {138}
+height={40}
 >
 
 </Image>
 
-</div>      
+</div>
 
-<div >
+{/* <div >
 
 <Image className="mx-10"
-src="/Asset24@300x.png"
-width= {833}
-height={135}
+src="/customer/rsz_aubai-bg.png"
+width= {150}
+height={32}
 >
 
 </Image>
 
-</div>       */}
+</div> */}
 
 <div>
 
 
 
-</div>      
+</div>
 
 
 <div >
 
 
 
-</div>      
+</div>
 
-    
+
   </div>
     </div>
     </div>

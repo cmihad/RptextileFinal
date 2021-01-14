@@ -252,7 +252,7 @@ height={36}
 
 </div>
 
-<div >
+{/* <div >
 
 <Image className="mx-10"
 src="/Asset23@300x.png"
@@ -262,7 +262,7 @@ height={40}
 
 </Image>
 
-</div>
+</div> */}
 
 {/* <div >
 

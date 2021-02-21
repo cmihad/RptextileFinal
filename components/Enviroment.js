@@ -7,7 +7,7 @@ const Enviroment = () => {
 
 <h1 className="text-gray-900
         text-center text-2xl my-4 sm:text-4xl sm:my-10 tracking-wide font-bold  font-display">
-         Work Enviroment
+         Work Environment
        </h1>
        <div className="grid grid-cols-1 md:grid-cols-4">
         <div><Image

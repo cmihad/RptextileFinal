@@ -10,6 +10,7 @@ import NewServices from '../components/NewServices'
 import SimpleMap from '../components/SimpleMap'
 import OurOffice1 from '../components/OurOffice1'
 import FacebookChat from '../components/FacebookChat'
+import Enviroment from '../components/Enviroment'
 
 // let client = require('contentful').createClient({
 //   space: process.env.NEXT_CONTENTFUL_SPACE_ID,
@@ -49,7 +50,7 @@ export default function Home( ) {
 
     <OurOffice1></OurOffice1>
 
-    {/* <OurOffice></OurOffice>  */}
+    <Enviroment></Enviroment>
     <SimpleMap></SimpleMap>
     <ContactUs></ContactUs>
 

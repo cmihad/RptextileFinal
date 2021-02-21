@@ -25,6 +25,7 @@ const Ceo = () => {
         src="/rsz_sign.png"
         width={250}
         height={50}
+        priority
 
         />
         </div>

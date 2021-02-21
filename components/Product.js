@@ -10,41 +10,41 @@ const Product = () => {
 
     <div className= " pt-2 grid-cols-1  grid sm:grid-cols-5 gap-x-16 pb-16 sm:pt-20 place-items-center">
       <div>
-      <Image 
+      <Image
         src="/tshirt1.png"
         width={378}
         height={382}
-        priority={true}
+        priority
       />
 
       <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         T-Shirt
       </h2>
-     
-     
+
+
       </div>
 
       <div>
-      <Image 
+      <Image
         src="/pantmain1.png"
         width={120}
         height={240}
-        priority={true}
+        priority
       />
         <h2 className="text-2xl text-white text-center pt-8 font-raleway ">
         Trouser
       </h2>
-        
+
         </div>
 
         <div>
-        
 
-        <Image 
+
+        <Image
         src="/tshirt.png"
         width={378}
         height={382}
-        priority={true}
+        priority
 
       />
       <h2 className="text-2xl text-white text-center pt-8 font-raleway">
@@ -55,11 +55,11 @@ const Product = () => {
 
         <div>
 
-        <Image 
+        <Image
         src="/jacket.png"
         width={378}
         height={382}
-        priority={true}
+        priority
       />
         <h2 className="text-2xl text-white text-center pt-8 font-raleway">
         Jacket
@@ -68,23 +68,23 @@ const Product = () => {
         </div>
 
         <div>
-        
-        <Image 
+
+        <Image
         src="/lin6.png"
         width={165}
         height={206}
-        priority={true}
-      
+        priority
+
       />
         <h2 className="text-2xl text-white text-center pt-8 font-raleway">
-        
+
         Undergarments
       </h2>
 
         </div>
     </div>
-    
-    
+
+
     <div className="text-center pb-24">
 
       <Link href="/collections">

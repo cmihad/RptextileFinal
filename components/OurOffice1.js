@@ -11,7 +11,7 @@ const OurOffice1 = () => {
            <div className="grid grid-cols-2 container mx-auto place-items-center py-10">
         <div>
         <Image
-      className="rounded-lg"
+      className="sm:rounded-lg"
       src="/building1.png"
        width={350}
        height={510}
@@ -22,7 +22,7 @@ const OurOffice1 = () => {
        </div>
         <div className="flex">
 
-        <div className="mb-4 text-center border rounded-2xl  py-2 ">
+        <div className="mb-4 text-center sm:border sm:rounded-2xl  py-2 ">
               <h1 className="text-2xl tracking-tight text-gray-900 font-bold font-montserrat"> Dhaka Office</h1>
               <p className=" text-xl text-gray-900 font-raleway">
 
